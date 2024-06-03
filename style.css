@@ -1,0 +1,15 @@
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+  }
+  
+  .btn-outline-success:hover{
+  background-color: chocolate ;
+    border-color: chocolate;
+   color: white;}
+  
+  .btn-outline-success:active{
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+  }

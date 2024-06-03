@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>replit</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      
+    <!-- 내가 만든 css 시트가 부트스트랩 시트보다 밑에 있어야한다.-->
+    <!-- 나중에 온 css일수록 중요하다 !  -->
+<link href="style.css" rel="stylesheet" type="text/css/">
+      
+</head>
+    
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LOUIS VUITTON</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">NEW</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" > 
+              WOMEN
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" >ART OF LIVING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button">MEGAZINE</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--BC_MEN_EDITORIALISATION_NOVEMBRE_20_111_NAME-OF-PRODUCT_LVCOM_2048x1152_DI3.jpg?wid=1180" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://kr.louisvuitton.com/content/dam/lv/online/high-end/unisex/services/U_Services_Art_of_Gifting.html/jcr:content/assets/LV_RIBBON_Roll_DI3.jpg?imwidth=1180" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://kr.louisvuitton.com/content/dam/lv/online/high-end/men/jewelry/BC_Edito_Men_Jewelry_SS24.html/jcr:content/assets/BC_MEN_MENSS24_CAMPAIGN_EDITORIALIZATION_IMG18_LVCOM_2048x1152_DI3.jpg?imwidth=1180" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+      <div class="text-center mt-5 mb-5">
+        <!--mt는 margin top 이란 뜻   -->
+        <!-- text-center 우리가 css 만들지도 않았는데 부트스트랩에서 가져온것만으로도 스타일을 제공해준다 utillities 확인 css 만들지 않아도 가능 !!! -->
+        <!--html 의 뿌리는 body 텍스트 사이즈를 기준으로 잡는다   -->
+         <!-- html font-size: 12px 이라면 1rem 은 12px 2rem은 24px 3rem은 36px 이다   -->
+        <h2>JOURNEY HOME FOR THE HOLIDAYS </h2>
+        <!-- <h2> 태그 글씨를 크게 만드는 태그 -->
+        <p> Starring Alicia Vikander</p>
+        <!-- p는 문단 >>글씨 밑에 공간이 생긴다. -->
+      <button type="button" class="btn btn-dark">Discover the Campaine</button>
+      </div>
+  
+  <!-- 최적의 사이즈 (사진이나 카드 등)을 만들고 싶으면 layout에 컨테이너 참고 잘 모르겠으면 그냥 컨테이너 중 맨 위에 있는 .container 쓰면 알아서 만들어준다 -->
+     
+  <div class="container md-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <!--카드의 이미지 사이즈 제한을 없애고 싶으면style="width: 18rem;" 지우기 다른 줄에 있는 이 태그들도 지우고싶으면 저거 블락하고 ctrl +d 누르면 된다   -->
+    <div class="col-md-4 col-sm-12">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!--카드 안 문구 가운데정렬하고 싶으면 굳이 css가서 만들지않고 그냥 test-center 입력해도 ㄱㅊ 부투스트랩에 있기때문에!!!!  -->
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  </div>  
+  
+  
+<footer>
+  <div class="container">
+  
+   <div>
+    LOUIS VUITTON
+    </div>
+  <div class="pb-5 pt-5">
+   <div class="row">
+     <div class="col">UnitiedStates
+     </div>
+    <div class="col"><a href="#">Emaile Sign-up</a>  
+       </div>
+    <div class="col"><a href="#">Contact Us</a>  
+       </div>
+    <div class="col"><a href="#">Apps</a>  
+       </div>
+    <div class="col"><a href="#">Follw Us</a>  
+       </div>
+    <div class="col"><a href="#">California Transparency</a>  
+       </div>
+    <div class="col"><a href="#">Legal Notice</a>  
+       </div>
+    <div class="col"><a href="#">Careers</a>  
+       </div>
+    <div class="col"><a href="#">Sitemap</a>  
+       </div>
+    
+    <!-- 밑에가 9개 text가 있다고 치자 부트스트랩은 12로 맞춰야한다 9는 12로 나눌수 없다 그러면 숫자를 쓰지않고 그냥 col로 두기 그럼 적당하게 쪼게준다ㅣ!!!  -->
+    <!-- 한줄에 여러개 있는 푸터에 뭐 쭉 있는 거 그걸 하고싶다 하면 레이아웃 떠올리기 FLEX BOX 쓰면 모바일 버전으로하면 찌글찌글하게 된다. -->
+  </div>
+  </div>
+  </div>
+ </footer>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  
+    
+    </body>
+    
+    </html>
+    
+    
+    
