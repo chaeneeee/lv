@@ -13,3 +13,56 @@
     border-color: chocolate;
     color: white;
   }
+
+
+
+  
+  .logo-line {
+    border-bottom: 1px solid #0e0601;
+    font-weight : 280;
+    font-size: 14px;
+
+  }
+  .flag {
+    display: none;
+  }
+
+  .first-line {
+    text-align: center;
+  }
+
+  .mobile-footer {
+    display: block;
+  }
+
+.col {
+  padding-bottom: 1rem;
+}
+.flag-img {
+  margin: 0 0.5rem;
+}footer {
+  background: #19110b;
+  font-size: 14px;
+}
+.first-line {
+  color: white;
+  border-bottom: 1px solid #392d23;
+}
+.second-line a {
+  color: white;
+  text-decoration: none;
+}
+.flag {
+  color: white;
+}
+.mobile-footer {
+  border-top: 1px solid #392d23;
+  color: white;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  display: none;
+}
